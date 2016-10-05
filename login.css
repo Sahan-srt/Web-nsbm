@@ -1,0 +1,22 @@
+* {
+
+
+padding: 0px;
+margin: 0px;
+
+}
+#bdy{
+
+	display:-webkit-box;
+	background-image: url(images/Topbar.jpg);
+	-webkit-box-pack:center;
+}
+
+.login{
+   margin-top: 120px;
+	border: 2px solid black;
+	padding: 250px;
+	background-image: url(images/login.jpg);
+	width: 340px;
+	height: 280px;
+}
