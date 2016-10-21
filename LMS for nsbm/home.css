@@ -1,0 +1,195 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+header,nav,article,section,aside ,footer{
+
+	display: block;
+}
+body{
+
+   background-image: url(images/Topbar.jpg);
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack:center;
+    
+}
+#H_title{
+        
+    
+    width:100%; 
+	border: 2px solid #003326 ;
+	padding: 15px ;
+
+	display: -webkit-box;
+	-webkit-box-orient:horizontal ;
+-webkit-box-flex:1;
+height: 100px;
+opacity: 0.8;
+
+}
+#logdiv{
+	
+	-webkit-box-flex:1;
+}
+#Log_b{
+	display: block;
+  box-sizing: border-box;
+  margin: 5px 10px;
+  padding: 2px 4px;
+  width: 100%;
+  max-width: 150px;
+   border: 1px solid #fff;
+ 
+  background: transparent;
+  border-radius: 5px;
+  color: rgb(50,50,50);
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-out;
+}
+
+#Log_b:hover,
+#Log_b:focus,
+#Log_b:active{
+
+ background: #444;
+  color: #000;
+  transition: all 0.25s ease-in;
+
+}
+#hpage{
+  width: 90%;
+	-webkit-box-flex:1;
+   font-size: 25px;
+   color: #b300b3;
+   text-shadow: black 5px 5px 1px;
+   overflow: hidden;
+  
+}
+
+.mainnav{
+	display: -webkit-box;
+	-webkit-box-orient:horizontal ;
+	background-color: #222;
+	color: white;
+	width: 100%;
+    
+	
+}
+
+.logo{
+
+	-webkit-box-flex:1;
+	width: 20%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.4em;
+	padding: 15px 40px;
+
+   
+}
+#nav ul{
+ width: 80%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+
+}
+#nav ul li{
+ 
+	
+   display: inline-block;
+}
+
+#nav ul li a{
+  
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 15px 45px;
+	height: 40px;
+	line-height: 40px;
+}
+#nav ul li:hover{
+
+	background-color: #444;
+}
+#nav ul li:hover ul{
+	display: block;
+}
+#nav ul ul{
+	display: none;
+	position: absolute;
+	background-color: #222;
+	width: 195px;
+	opacity: 0.7;
+	
+}
+#nav ul ul li{
+	display: block;
+
+}
+#nav ul ul li a:hover {
+   text-decoration: underline;
+   background-color: none;
+
+}
+#nav ul ul li a{
+	font-size: 0.8em;
+}
+#nav ul #com{
+
+	background-color: #222;
+	width: 178px;
+	opacity: 0.7;
+
+}
+
+
+
+
+
+
+
+
+#big_wrap{
+
+ max-width:1900px;
+ margin: 10px;
+ display: -webkit-box;
+ -webkit-box-orient:vertical;
+ -webkit-box-flex:1;
+
+}
+#midlle_wrap{
+
+ display: -webkit-box ;
+ -webkit-box-orient: horizontal ;
+  -webkit-box-direction:reverse;
+
+}
+#section1{
+
+	border: 2px solid gray;
+	-webkit-box-flex:1;
+	margin: 5px;
+	padding: 5px;
+}
+#side_bar{
+
+  border: 2px solid gray;
+ width: 20%;
+ margin: 5px;
+ padding: 5px;
+
+
+}
+#main-f{
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid gray;
+}
