@@ -17,7 +17,8 @@ body{
 }
 #H_title{
         
-    
+    background-image: url(images/l1.jpg);
+    background-size: 100% 100%;
     width:100%; 
 	border: 2px solid #003326 ;
 	padding: 15px ;
@@ -42,7 +43,7 @@ opacity: 0.8;
   max-width: 150px;
    border: 1px solid #fff;
  
-  background: transparent;
+  background:#e6ffff ;
   border-radius: 5px;
   color: rgb(50,50,50);
   text-align: center;
@@ -64,8 +65,8 @@ opacity: 0.8;
   width: 90%;
 	-webkit-box-flex:1;
    font-size: 25px;
-   color: #b300b3;
-   text-shadow: black 5px 5px 1px;
+   color: #003300;
+   text-shadow: #ffe6ff 8px 5px 3px;
    overflow: hidden;
   
 }
@@ -76,11 +77,13 @@ opacity: 0.8;
 	background-color: #222;
 	color: white;
 	width: 100%;
-    
+ 
 	
 }
 
 .logo{
+    background-image: url(images/nsbm.png);
+    background-size: 100% 100%;
 
 	-webkit-box-flex:1;
 	width: 20%;
@@ -120,6 +123,7 @@ opacity: 0.8;
 }
 #nav ul li:hover ul{
 	display: block;
+
 }
 #nav ul ul{
 	display: none;
@@ -170,13 +174,15 @@ opacity: 0.8;
  display: -webkit-box ;
  -webkit-box-orient: horizontal ;
   -webkit-box-direction:reverse;
-
+  min-height: 640px;
+ 
 }
 #section1{
 
 	border: 2px solid gray;
 	-webkit-box-flex:1;
 	margin: 5px;
+
 	padding: 5px;
 }
 #side_bar{

@@ -53,8 +53,8 @@
      	</div><div id="but">
      	<input id="submit" type="submit" name="login" value="Login">
      	</div>
-     	</div>
+     	
      	</div>	
-     </form>
+     </form></div>
 </body>
 </html>
